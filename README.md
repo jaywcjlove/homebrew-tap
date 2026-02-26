@@ -13,6 +13,12 @@ tap "jaywcjlove/tap"
 brew "<formula>"
 ```
 
+## Install
+
+```shell
+brew install jaywcjlove/tap/appi18n
+```
+
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).

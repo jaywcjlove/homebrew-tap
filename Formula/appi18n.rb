@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://docs.brew.sh/rubydoc/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class AppI18n < Formula
+class Appi18n < Formula
   desc "Lightweight CLI tool for unifying and optimizing the internationalization (i18n) workflow across multiple apps."
   homepage "https://github.com/jaywcjlove/app-i18n"
   url "https://github.com/jaywcjlove/app-i18n/releases/download/v1.0.0/appi18n.tar.gz"
@@ -28,7 +28,7 @@ class AppI18n < Formula
     #
     # This test will fail and we won't accept that! For Homebrew/homebrew-core
     # this will need to be a test that verifies the functionality of the
-    # software. Run the test with `brew test app-i18n`. Options passed
+    # software. Run the test with `brew test appi18n`. Options passed
     # to `brew install` such as `--HEAD` also need to be provided to `brew test`.
     #
     # The installed folder is not in the path, so use the entire path to any
