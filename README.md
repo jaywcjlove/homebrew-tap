@@ -1,13 +1,14 @@
-# Jaywcjlove Tap
+Homebrew Tap
+===
 
-A collection of Homebrew formulae for command-line tools by jaywcjlove.
+A collection of Homebrew formulae for command-line tools by [@jaywcjlove](https://github.com/jaywcjlove).
 
 ## Available Formulae
 
 | Formula | Description | Version |
 |---------|-------------|---------|
 | [appi18n](https://github.com/jaywcjlove/app-i18n) | Lightweight CLI tool for unifying and optimizing the internationalization (i18n) workflow | v1.0.1 |
-| [sgo](https://github.com/jaywcjlove/sgo-rs) | A simple, fast, and cross-platform static web server with compression and directory listing | v0.5.0 |
+| [sgo](https://github.com/jaywcjlove/sgo-rs) | A simple, fast, and cross-platform static web server with compression and directory listing | v0.6.0 |
 
 ## How do I install these formulae?
 
@@ -54,6 +55,63 @@ brew install jaywcjlove/tap/sgo
 sgo                    # Start server on port 3030, serve ./static
 sgo -p 8080 -d ./www   # Custom port and directory
 sgo --cors             # Enable CORS support
+```
+
+## Update and Maintenance
+
+### Update to Latest Version
+
+To get the latest version of any formula:
+
+```bash
+# Update tap and all formulae
+brew update
+
+# Upgrade specific formula to latest version  
+brew upgrade <formula>
+
+# Example: upgrade sgo to latest version
+brew upgrade sgo
+```
+
+### Reinstall Formula
+
+If you encounter issues or want a clean installation:
+
+```bash
+# Method 1: Uninstall and reinstall
+brew uninstall <formula>
+brew install jaywcjlove/tap/<formula>
+
+# Method 2: Force reinstall
+brew reinstall <formula>
+
+# Example: reinstall sgo
+brew uninstall sgo
+brew install jaywcjlove/tap/sgo
+```
+
+### Check Installed Version
+
+```bash
+# List all installed formulae from this tap
+brew list | grep -E "(appi18n|sgo)"
+
+# Check version of specific tool (if supported)
+appi18n --version
+sgo --version
+```
+
+### Force Update Tap
+
+If you're not seeing the latest versions:
+
+```bash
+# Force update this tap specifically
+brew tap --force jaywcjlove/tap
+
+# Then update and upgrade
+brew update && brew upgrade
 ```
 
 ## How to Add a New Formula
