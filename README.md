@@ -123,6 +123,7 @@ Adding a new command line tool to this tap:
 Create a new `.rb` file in the `Formula/` directory:
 
 ```bash
+cd $(brew --repository jaywcjlove/tap)
 # Create formula file (replace 'toolname' with your tool name)
 touch Formula/toolname.rb
 ```
