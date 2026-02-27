@@ -85,6 +85,7 @@ brew install jaywcjlove/tap/<formula>
 
 # Method 2: Force reinstall
 brew reinstall <formula>
+brew reinstall jaywcjlove/tap/appi18n
 
 # Example: reinstall sgo
 brew uninstall sgo
