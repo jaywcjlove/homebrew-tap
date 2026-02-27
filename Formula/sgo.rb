@@ -1,13 +1,13 @@
 class Sgo < Formula
   desc "A simple, fast, and cross-platform static web server with compression, templating, and directory listing."
   homepage "https://github.com/jaywcjlove/sgo-rs"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/jaywcjlove/sgo-rs/releases/download/v0.5.0/sgo-x86_64-apple-darwin.zip"
-      sha256 "aead532bc8912fd2df62569fdef1068ff3cedad4cf8b46b746421656e50cf720"
+      url "https://github.com/jaywcjlove/sgo-rs/releases/download/v0.6.0/sgo-x86_64-apple-darwin.zip"
+      sha256 "e0f5e31eeb0d6dd2737e2a6fd9afcf6da02c2d249042b91d14180c753dcf2929"
 
       def install
         bin.install "sgo"
@@ -15,8 +15,8 @@ class Sgo < Formula
     end
 
     on_arm do
-      url "https://github.com/jaywcjlove/sgo-rs/releases/download/v0.5.0/sgo-aarch64-apple-darwin.zip"
-      sha256 "48a5ca895cf482222ca4a39eb43dd09818f83d99969a35a0a5b29a7bd82576e3"
+      url "https://github.com/jaywcjlove/sgo-rs/releases/download/v0.6.0/sgo-aarch64-apple-darwin.zip"
+      sha256 "74e7bd880b115276af8a8a76b033d3b79a57961fd84354e82a6654cafa59f6ca"
 
       def install
         bin.install "sgo"
