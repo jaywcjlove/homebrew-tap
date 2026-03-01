@@ -3,8 +3,8 @@
 class Appi18n < Formula
   desc "Lightweight CLI tool for unifying and optimizing the internationalization (i18n) workflow across multiple apps."
   homepage "https://github.com/jaywcjlove/app-i18n"
-  url "https://github.com/jaywcjlove/app-i18n/releases/download/v1.1.1/appi18n.tar.gz"
-  sha256 "bff0f394b8a506a12d879b43731d6a4398293ff5fa20edaa3977be86ea287a3a"
+  url "https://github.com/jaywcjlove/app-i18n/releases/download/v1.2.0/appi18n.tar.gz"
+  sha256 "7d31b004e2b9f09c8c2e878f76bd1e4bd280ff1118088f46e7b2831fbe6035b1"
   license "MIT"
 
   def install
