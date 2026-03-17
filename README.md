@@ -7,29 +7,43 @@ A collection of Homebrew formulae for command-line tools by [@jaywcjlove](https:
 
 | Formula | Description | Version |
 |---------|-------------|---------|
-| [appi18n](https://github.com/jaywcjlove/app-i18n) | Lightweight CLI tool for unifying and optimizing the internationalization (i18n) workflow | v1.0.1 |
+| [appi18n](https://github.com/jaywcjlove/app-i18n) | Lightweight CLI tool for unifying and optimizing the internationalization (i18n) workflow | v1.3.0 |
 | [sgo](https://github.com/jaywcjlove/sgo-rs) | A simple, fast, and cross-platform static web server with compression and directory listing | v0.6.0 |
+
+## Available Casks
+
+| Cask | Description | Version |
+|------|-------------|---------|  
+| [vidwall-hub](https://github.com/jaywcjlove/vidwall-hub) | Tool to import videos into system wallpaper service for lock screen animations | v1.6.1 |
 
 ## How do I install these formulae?
 
 ### Method 1: Direct install
 
+**For command-line tools (formulae):**
 ```bash
 brew install jaywcjlove/tap/<formula>
+```
+
+**For GUI apps (casks):**
+```bash
+brew install --cask jaywcjlove/tap/<cask>
 ```
 
 ### Method 2: Tap first, then install
 
 ```bash
 brew tap jaywcjlove/tap
-brew install <formula>
+brew install <formula>          # for command-line tools
+brew install --cask <cask>      # for GUI applications
 ```
 
 ### Method 3: Using Brewfile
 
 ```ruby
 tap "jaywcjlove/tap"
-brew "<formula>"
+brew "<formula>"                # for command-line tools
+cask "<cask>"                   # for GUI applications
 ```
 
 ## Installation Examples
@@ -56,6 +70,22 @@ sgo                    # Start server on port 3030, serve ./static
 sgo -p 8080 -d ./www   # Custom port and directory
 sgo --cors             # Enable CORS support
 ```
+
+### Install vidwall-hub
+
+```bash
+# Video wallpaper tool for macOS (GUI app)
+brew install --cask jaywcjlove/tap/vidwall-hub
+```
+
+The app will be automatically installed to `/Applications/VidwallHub.app` and will appear in:
+- Launchpad
+- Spotlight search
+- Applications folder in Finder
+
+**Usage:**
+- Open from Launchpad or Applications folder
+- Or use command line: `open -a "VidwallHub"`
 
 ## Update and Maintenance
 
@@ -95,8 +125,9 @@ brew install jaywcjlove/tap/sgo
 ### Check Installed Version
 
 ```bash
-# List all installed formulae from this tap
-brew list | grep -E "(appi18n|sgo)"
+# List all installed formulae and casks from this tap
+brew list | grep -E "(appi18n|sgo)"           # formulae
+brew list --cask | grep -E "(vidwall-hub)"    # casks
 
 # Check version of specific tool (if supported)
 appi18n --version
