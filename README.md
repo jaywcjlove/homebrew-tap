@@ -10,7 +10,7 @@ A collection of Homebrew formulae for command-line tools by [@jaywcjlove](https:
 
 | Formula | Description | Version |
 |---------|-------------|---------|
-| [appi18n](https://github.com/jaywcjlove/app-i18n) | Lightweight CLI tool for unifying and optimizing the internationalization (i18n) workflow | v1.4.0 |
+| [appi18n](https://github.com/jaywcjlove/app-i18n) | Lightweight CLI tool for unifying and optimizing the internationalization (i18n) workflow | v1.5.0 |
 | [sgo](https://github.com/jaywcjlove/sgo-rs) | A simple, fast, and cross-platform static web server with compression and directory listing | v0.6.0 |
 
 ## Available Casks
