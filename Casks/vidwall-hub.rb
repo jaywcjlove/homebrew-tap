@@ -13,7 +13,10 @@ cask "vidwall-hub" do
 
   zap trash: [
     "~/Library/Application Support/com.wangchujiang.vidwall.hub",
+    "~/Library/Application Scripts/group.GR99S2ZJZQ.vidwall",
+    "~/Library/Group Containers/group.GR99S2ZJZQ.vidwall",
     "~/Library/Caches/com.wangchujiang.vidwall.hub",
+    "~/Library/WebKit/com.wangchujiang.vidwall.hub",
     "~/Library/Preferences/com.wangchujiang.vidwall.hub.plist",
   ]
 end

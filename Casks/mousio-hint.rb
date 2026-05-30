@@ -12,10 +12,12 @@ cask "mousio-hint" do
   app "MousioHint.app"
 
   zap trash: [
-    "~/Library/Application Support/com.wangchujiang.mousiohint",
-    "~/Library/Group Containers/group.GR99S2ZJZQ.mousiohint",
-    "~/Library/Caches/com.wangchujiang.mousiohint",
+    "~/Library/HTTPStorages/com.wangchujiang.mousiohint",
     "~/Library/WebKit/com.wangchujiang.mousiohint",
+    "~/Library/Caches/com.wangchujiang.mousiohint",
     "~/Library/Preferences/com.wangchujiang.mousiohint.plist",
+    "~/Library/Application Scripts/group.GR99S2ZJZQ.mousio-hint",
+    "~/Library/Group Containers/group.GR99S2ZJZQ.mousio-hint",
+    "~/Library/Preferences/group.GR99S2ZJZQ.mousio-hint.plist",
   ]
 end
