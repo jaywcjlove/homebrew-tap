@@ -12,8 +12,8 @@ cask "vidwall-hub" do
   app "VidwallHub.app"
 
   zap trash: [
-    "~/Library/Application Support/com.wangchujiang.VidwallHub",
-    "~/Library/Caches/com.wangchujiang.VidwallHub",
-    "~/Library/Preferences/com.wangchujiang.VidwallHub.plist",
+    "~/Library/Application Support/com.wangchujiang.vidwall.hub",
+    "~/Library/Caches/com.wangchujiang.vidwall.hub",
+    "~/Library/Preferences/com.wangchujiang.vidwall.hub.plist",
   ]
 end
