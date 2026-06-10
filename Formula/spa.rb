@@ -3,8 +3,8 @@
 class Spa < Formula
   desc "SPA is a small Swift command for adding a Swift Package dependency to an Xcode GUI project."
   homepage "https://github.com/jaywcjlove/spa"
-  url "https://github.com/jaywcjlove/spa/releases/download/v0.1.1/spa.tar.gz"
-  sha256 "9b581f36e6536bb98271c7f3a723cda34839c0481df5cf364de609efdd08fa38"
+  url "https://github.com/jaywcjlove/spa/releases/download/v0.1.2/spa.tar.gz"
+  sha256 "f94ffea1400378cc8c1bebbe93431d504c5a411f16c3841ae4158180def13a2a"
   license "MIT"
 
   def install
