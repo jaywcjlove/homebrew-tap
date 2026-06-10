@@ -1,10 +1,10 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://docs.brew.sh/rubydoc/Formula
 class Spa < Formula
-  desc "SPA is a small Swift command for adding a Swift Package dependency to an Xcode GUI project."
+  desc "Swift Package Add for Xcode GUI projects"
   homepage "https://github.com/jaywcjlove/spa"
-  url "https://github.com/jaywcjlove/spa/releases/download/v0.1.2/spa.tar.gz"
-  sha256 "f94ffea1400378cc8c1bebbe93431d504c5a411f16c3841ae4158180def13a2a"
+  url "https://github.com/jaywcjlove/spa/releases/download/v0.1.4/spa.tar.gz"
+  sha256 "cdc2ddccc374e64a4d6f2388a7458b5d7b415aa67dbfe6916d19fb6842ca367f"
   license "MIT"
 
   def install
