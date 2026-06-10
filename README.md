@@ -12,7 +12,7 @@ A collection of Homebrew formulae for command-line tools by [@jaywcjlove](https:
 |---------|-------------|---------|
 | [appi18n](https://github.com/jaywcjlove/app-i18n) | Lightweight CLI tool for unifying and optimizing the internationalization (i18n) workflow | v1.6.0 |
 | [sgo](https://github.com/jaywcjlove/sgo-rs) | A simple, fast, and cross-platform static web server with compression and directory listing | v0.6.0 |
-| [spa](https://github.com/jaywcjlove/spa) | SPA is a small Swift command for adding a Swift Package dependency to an Xcode GUI project. | v0.1.2 |
+| [spa](https://github.com/jaywcjlove/spa) | SPA is a small Swift command for adding a Swift Package dependency to an Xcode GUI project. | v0.1.4 |
 
 ## Available Casks
 
