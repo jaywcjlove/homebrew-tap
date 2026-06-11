@@ -3,8 +3,8 @@
 class Spa < Formula
   desc "Swift Package Add for Xcode GUI projects"
   homepage "https://github.com/jaywcjlove/spa"
-  url "https://github.com/jaywcjlove/spa/releases/download/v0.1.5/spa.tar.gz"
-  sha256 "f26c92fb5bfd650b6c2fc9005c7523424c203f0a46cde9328d7e82294e1e5d3c"
+  url "https://github.com/jaywcjlove/spa/releases/download/v0.1.6/spa.tar.gz"
+  sha256 "7a9d2510f84c982a420777e826a210efe5e6d813a82aa390b46277e22efff5a7"
   license "MIT"
 
   def install
