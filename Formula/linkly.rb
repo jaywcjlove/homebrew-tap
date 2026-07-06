@@ -3,8 +3,8 @@
 class Linkly < Formula
   desc "A Swift command-line tool that generates beautiful, responsive link aggregation pages (like Linktree) from a single linkly.json config file."
   homepage "https://github.com/jaywcjlove/linkly"
-  url "https://github.com/jaywcjlove/linkly/releases/download/v1.1.7/linkly.tar.gz"
-  sha256 "d8117dc018b7d08777ea940f029980a482900c3746e90875388e78fd224bba52"
+  url "https://github.com/jaywcjlove/linkly/releases/download/v1.1.8/linkly.tar.gz"
+  sha256 "50fff26fe4c689653d944df520d3e90f30e0670e65b794f92a4d84958f5e318d"
   license "MIT"
 
   def install
