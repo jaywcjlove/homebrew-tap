@@ -1,6 +1,6 @@
 cask "dock-lift" do
-  version "1.0.0"
-  sha256 "d54cb85b481e9d8cf23980a730255c759f364227a34aed80f8398a7be697f932"
+  version "1.1.0"
+  sha256 "4e85997abc9574b64ce0e8a7d2c9a438d5fef8f19330cfb8a1dc4cccf838c9b0"
 
   url "https://github.com/jaywcjlove/dock-lift/releases/download/v#{version}/DockLift_v#{version}.zip"
   name "Dock Lift"

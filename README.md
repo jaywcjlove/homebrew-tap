@@ -25,7 +25,7 @@ Tool to import videos into system wallpaper service for lock screen animations
 
 Mousio Hint, a companion tool for Mousio, displays shortcut hints to enable quick mouse movement and works perfectly with all its control features.
 
-### [Dock Lift](https://github.com/jaywcjlove/mousio-hint) `v1.0.0`
+### [Dock Lift](https://github.com/jaywcjlove/mousio-hint) `v1.1.0`
 
 Bring app windows to your current display when clicking Dock icons on macOS.
 
