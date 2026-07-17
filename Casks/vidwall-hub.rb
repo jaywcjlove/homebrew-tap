@@ -7,7 +7,7 @@ cask "vidwall-hub" do
   desc "Tool that allows you to easily import videos into the system wallpaper service and use them as lock screen animations"
   homepage "https://github.com/jaywcjlove/vidwall-hub"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "VidwallHub.app"
 

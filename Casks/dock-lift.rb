@@ -7,7 +7,7 @@ cask "dock-lift" do
   desc "Bring app windows to your current display when clicking Dock icons on macOS."
   homepage "https://github.com/jaywcjlove/dock-lift"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "DockLift.app"
 

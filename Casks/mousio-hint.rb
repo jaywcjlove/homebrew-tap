@@ -7,7 +7,7 @@ cask "mousio-hint" do
   desc "Mousio Hint, a companion tool for Mousio, displays shortcut hints to enable quick mouse movement and works perfectly with all its control features."
   homepage "https://github.com/jaywcjlove/mousio-hint"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "MousioHint.app"
 
