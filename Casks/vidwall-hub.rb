@@ -1,6 +1,6 @@
 cask "vidwall-hub" do
-  version "1.6.2"
-  sha256 "b3a5aa2ceb94430d41dafa379d29e5f84b4329f47da767ac907961f45a1d55c3"
+  version "1.6.3"
+  sha256 "60b3eca171b0f616f083da37edcdf86b10a920e31237110e883a40354313a495"
 
   url "https://github.com/jaywcjlove/vidwall-hub/releases/download/v#{version}/VidwallHub_v#{version}.zip"
   name "Vidwall Hub"
