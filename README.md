@@ -21,7 +21,7 @@ A collection of Homebrew formulae for command-line tools by [@jaywcjlove](https:
 
 Tool to import videos into system wallpaper service for lock screen animations
 
-### [Mousio Hint](https://github.com/jaywcjlove/mousio-hint) `v1.7.0`
+### [Mousio Hint](https://github.com/jaywcjlove/mousio-hint) `v1.8.0`
 
 Mousio Hint, a companion tool for Mousio, displays shortcut hints to enable quick mouse movement and works perfectly with all its control features.
 
