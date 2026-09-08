@@ -17,7 +17,7 @@ A collection of Homebrew formulae for command-line tools by [@jaywcjlove](https:
 
 ## Available Casks
 
-### [Vidwall Hub](https://github.com/jaywcjlove/vidwall-hub) `v1.6.2`
+### [Vidwall Hub](https://github.com/jaywcjlove/vidwall-hub) `v2.0.0`
 
 Tool to import videos into system wallpaper service for lock screen animations
 
