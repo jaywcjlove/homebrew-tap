@@ -1,6 +1,6 @@
 cask "mousio-hint" do
-  version "1.8.0"
-  sha256 "c3879513f5f07dae51aafe2e8d9d20b7ecc1b5e26b12a5e3a09ee1eb50f443d1"
+  version "1.8.1"
+  sha256 "d505128e600e5f41dc377e0109d1ae4ca1b3409502c28d8a543063148424779d"
 
   url "https://github.com/jaywcjlove/mousio-hint/releases/download/v#{version}/MousioHint_v#{version}.zip"
   name "Mousio Hint"
